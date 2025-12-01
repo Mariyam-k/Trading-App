@@ -1,0 +1,42 @@
+/* frontend/src/index.css (REQUIRED MINIMAL CSS) */
+body, #root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.content-wrapper {
+    flex-grow: 1; /* This is the critical line */
+}
+
+.nav-link{
+  margin-left: 20px;
+}
+.links-li{
+   gap: 6px;
+}
+.links-li a{
+  text-decoration: none;
+  color: #6c757d;
+
+}
+/* support */
+#supportHero{
+  background-color: rgb(56, 126, 209);
+  height: 420px;
+}
+#supportWp{
+  margin: 0 150px;
+}
+
+ input{
+  margin-top: 2rem;
+   padding: 15px;
+   width: 400px;
+}
+.links a{
+  padding-right: 1rem;
+  color: white;
+}
+.links_two a{
+  color: white;
+}
