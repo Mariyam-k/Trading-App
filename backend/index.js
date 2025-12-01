@@ -185,6 +185,8 @@ app.post("/sell", async (req, res) => {
 // ---------------------------
 // START SERVER + CONNECT DB
 // ---------------------------
+// console.log("MONGO_URL =", url);
+
 mongoose
   .connect(url)
   .then(() => {
