@@ -54,7 +54,15 @@ A complete full-stack trading platform built using React, Node.js, Express, and 
 - JWT  
 - bcrypt  
 - CORS  
-- Body-Parser  
+- Body-Parser
+
+### 🔮 Future Improvements
+
+Real-time market data & live updates ⏱️
+
+Advanced portfolio analytics & transaction history 📈
+
+UI enhancements: animations & dark mode 🌙
 
 ## ⚙️ Installation & Setup
 
@@ -81,10 +89,4 @@ MONGO_URI=your_mongo_connection
 JWT_SECRET=your_secret_key
 PORT=5000
 
-###🔮 Future Improvements
 
-Real-time market data & live updates ⏱️
-
-Advanced portfolio analytics & transaction history 📈
-
-UI enhancements: animations & dark mode 🌙
