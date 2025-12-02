@@ -1,68 +1,55 @@
-#🚀 Full-Stack Trading Website
+# 🚀 Full-Stack Trading Website
 
-A complete full-stack trading platform built using React, Node.js, Express, and MongoDB, with secure authentication, clean UI, and interactive charts.
-This project was created as a learning journey, heavily inspired and guided by Apna College’s full-stack course.
+A complete full-stack trading platform built using React, Node.js, Express, and MongoDB, with secure authentication, clean UI, and interactive charts. This project was created as a learning journey, heavily inspired and guided by Apna College’s full-stack course.
 
-##⭐ Features
+## ⭐ Features
 
-🔐 JWT Authentication (Login & Signup)
+- 🔐 JWT Authentication (Login & Signup)
+- 🔑 Password hashing using bcrypt
+- 📡 REST APIs built with Express
+- 📊 Data visualization with Chart.js
+- 🎨 Clean UI made with Material UI
+- 🚦 Protected routes using React-Router-Dom
+- 📥 API calls handled through Axios
+- 🧪 Component testing with Jest + React Testing Library
+- 📁 MongoDB database with Mongoose models
 
-🔑 Password hashing using bcrypt
+## 🧠 What I Learned
 
-📡 REST APIs built with Express
+- How to structure a full-stack project  
+- Creating secure authentication flow using JWT  
+- Connecting frontend to backend using Axios  
+- Handling state & routing in React  
+- Building and testing reusable components  
+- Designing dashboards & charts  
+- Implementing backend validation & error handling  
+- Working with REST APIs and middleware  
 
-📊 Data visualization with Chart.js
+## 🛠️ Tech Stack
 
-🎨 Clean UI made with Material UI
+### **Frontend**
+- React.js  
+- JavaScript  
+- Material UI  
+- Axios  
+- Chart.js + react-chartjs-2  
+- React Router  
+- Jest  
 
-🚦 Protected routes using React-Router-Dom
+### **Backend**
+- Node.js  
+- Express.js  
+- MongoDB  
+- Mongoose  
+- JWT  
+- bcrypt  
+- CORS  
+- Body-Parser  
 
-📥 API calls handled through Axios
+## ⚙️ Installation & Setup
 
-🧪 Component testing with Jest + React Testing Library
-
-📁 MongoDB database with Mongoose models
-
-##🧠 What I Learned
-
-How to structure a full-stack project
-
-Creating secure authentication flow using JWT
-
-Connecting frontend to backend using Axios
-
-Handling state & routing in React
-
-Building and testing reusable components
-
-Designing dashboards & charts
-
-Implementing backend validation & error handling
-
-Working with REST APIs and middleware
-
-##🛠️ Tech Stack
-###Frontend
-React.js
-JavaScript
-Material UI
-Axios
-Chart.js + react-chartjs-2
-React Router
-Jest (component testing)
-
-###Backend
-Node.js
-Express.js
-MongoDB
-Mongoose
-JWT
-bcrypt
-CORS
-Body-Parser
-
-##⚙️ Installation & Setup
-1. Clone the repository
+1. Clone the repository  
+```bash
 git clone https://github.com/your-username/trading-website.git
 cd trading-website
 
@@ -84,7 +71,7 @@ MONGO_URI=your_mongo_connection
 JWT_SECRET=your_secret_key
 PORT=5000
 
-##🔮 Future Improvements
+###🔮 Future Improvements
 
 Real-time market data & live updates ⏱️
 
